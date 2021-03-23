@@ -28,7 +28,7 @@ function App () {
 
 
     setCity("")
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=8da0d5a20c2c90179ac4ee1f9a3cc2c9`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=8da0d5a20c2c90179ac4ee1f9a3cc2c9`)
       .then(response => {
         if (response.status === 200) {
 
